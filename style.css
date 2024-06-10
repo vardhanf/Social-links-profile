@@ -1,0 +1,88 @@
+:root {
+    /* Colors */
+  /* Primary */
+   --Green: hsl(75, 94%, 57%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--Off-Black);
+  color:var(--White);
+  font-size: 1rem;
+}
+
+.profile{
+  border: 2px solid black;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 1rem;
+  background-color: var(--Dark-Grey);
+  padding: 1.25rem;
+  position: fixed;
+}
+img{
+  border-radius: 50%;
+  width: 25%;
+  height: auto;
+ 
+}
+.name{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.city{
+  font-weight: 600;
+  color: var(--Green);
+  margin: 0.5rem 0;
+}
+.role{
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.Social-media{
+  display:flex;
+  flex-direction: column;
+}
+a{
+  border: 2px solid black;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  text-decoration: none;
+  color: white;
+  background-color: var(--Grey);
+  border-radius: 0.85rem;
+  font-weight: 600;
+}
+
+a:hover{
+  background-color: var(--Green);
+  color: var(--Off-Black);
+}
+@media (max-width: 370px) {
+  .profile {
+    width: 300px; 
+    height:auto; 
+    padding: .75rem;
+  }
+}
+
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }

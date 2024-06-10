@@ -33,7 +33,7 @@ body{
   max-width: 350px;
   border-radius: 1rem;
   background-color: var(--Dark-Grey);
-  padding: 1.25rem;
+  padding: 1.5rem;
   position: fixed;
 }
 img{
@@ -45,6 +45,7 @@ img{
 .name{
   font-weight: 700;
   font-size: 1.5rem;
+    margin-top:1rem;
 }
 
 .city{
